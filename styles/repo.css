@@ -55,8 +55,32 @@ nav{
     text-align: center;
 }
 .banner{
-margin: 309px 267.5px 237px 267.5px;
+margin:309px 267.5px 237px 267.5px;
 text-align: center;
 
 }
 
+/*action style */
+
+.action{
+     display: flex;
+     justify-content: space-between;
+     margin: 62.5px 159px 62.5px 141px;
+
+}
+.action-content{
+    max-width: 517px;
+    height: 203px;
+}
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.action-description{
+   font-weight:regular;
+   font-size: 24px; 
+}
+.action-picture{
+    width: 403px;
+}
