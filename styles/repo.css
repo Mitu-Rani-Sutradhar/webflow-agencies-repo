@@ -84,3 +84,39 @@ text-align: center;
 .action-picture{
     width: 403px;
 }
+ 
+/* section style */
+
+.users{
+text-align: center;
+font-size: 38px;
+font-weight: bold; 
+opacity: 59%;
+margin: 50px 142px 0px 142px;
+gap:40px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.section-mark{
+ width: 180px;
+
+ 
+
+}
+.sec-heading{
+    font-weight: bold;
+    font-size:80px;
+    color: #4E47FF;
+    padding: 0px 9px 0px 9px;
+}
+.sec-des{
+    font-weight: regular;
+    font-size: 20px;
+    color: #000000;
+}
