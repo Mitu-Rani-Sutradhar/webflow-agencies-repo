@@ -13,7 +13,16 @@
 .text-primary{
     color: #4E47FF;
 }
-
+button{
+    
+    
+    border: none;
+}
+button:hover{
+background-color:yellow ;
+transition-duration: 0s;
+color: black;
+}
 .btn-primary{
     background-color: #4E47FF;
     font-weight: bold;
@@ -22,7 +31,9 @@
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
-}
+    }
+
+    }
 .header{
     background-image: url('../images/Assets/Hero-bg.png');
     background-size: cover;
@@ -94,6 +105,7 @@ font-weight: bold;
 opacity: 59%;
 margin: 50px 142px 0px 142px;
 gap:40px;
+
 }
 
 .section{
@@ -119,4 +131,47 @@ gap:40px;
     font-weight: regular;
     font-size: 20px;
     color: #000000;
+}
+/* card style */
+.card-section{
+    margin-left: 151px;
+    margin-right: 149px;
+}
+.card-head-card{
+    gap:50px;
+}
+  .card-container{
+padding: 24px 24px 24px 24px;
+gap:20px;
+  }
+.card{
+    width: 366px;
+    height: 243px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    padding-right: 24px;
+    border: 1px solid #F2EDED ;
+    border-radius: 14px;
+    background-color: #F2EDED;
+    
+}
+.card-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size:42px ;
+}
+.card-image{
+    height: 40px;
+    width: 40px;
+    border-radius: 9999px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.card-img-date{
+    display: flex;
+    gap:12px;  
+
 }
