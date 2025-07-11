@@ -1,5 +1,4 @@
 
-
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -33,13 +32,15 @@ color: black;
     border: none;
     }
 
+    .header{
+        background-image: url('../images/Assets/Hero-bg.png');
+    
     }
-.header{
-    background-image: url('../images/Assets/Hero-bg.png');
-    background-size: cover;
+
+
     
     
-}
+
 
 
 /* nav styles */
@@ -66,8 +67,11 @@ nav{
     text-align: center;
 }
 .banner{
+    max-width: 1440px;
+    height: 698px;
 margin:309px 267.5px 237px 267.5px;
 text-align: center;
+padding-bottom: 200px;
 
 }
 
@@ -181,6 +185,7 @@ gap:20px;
 .news-let-heading{
     font-weight: bold;
     font-size:97px ;
+    align-items: center;
 }
 .news-letter{
     display: flex;
@@ -213,7 +218,7 @@ gap:20px;
     background-color:aliceblue;
 }
 .news-text{
-    height:70px ;
+    height:135px ;
     width: 497px;
     border-radius: 10px;
     background-color:aliceblue;
@@ -226,4 +231,26 @@ gap:20px;
     background-color:#4E47FF;
     color:#FFFFFF;
     border-radius: 10px;
+}
+
+/* footer style */
+.footer{
+    text-align: center;
+    margin: 104px 455px 103px 463px;
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 100px;
+    color: #4E47FF;
+}
+.footer-description{
+    text-align: center;
+}
+footer li{
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+footer li a{
+    text-decoration: none;
 }
