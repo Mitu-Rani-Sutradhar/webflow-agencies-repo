@@ -174,4 +174,55 @@ gap:20px;
     display: flex;
     gap:12px;  
 
+
+}
+
+.news-let-heading{
+    font-weight: bold;
+    font-size:97px ;
+}
+.news-letter{
+    display: flex;
+    padding-top: 71px;
+    padding-bottom: 71px;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+.news-letter-fm{
+    display: flex;
+    height: 490px;
+    width: 497;
+    padding: 0%;
+
+
+}
+.news-email{
+    height: 70px;
+    width: 497px;
+    border-radius:10px ;
+    background-color:aliceblue;
+
+}
+.news-name{
+    height: 70px;
+    width: 497px;
+    border-radius: 10px;
+    background-color:aliceblue;
+}
+.news-text{
+    height:70px ;
+    width: 497px;
+    border-radius: 10px;
+    background-color:aliceblue;
+}
+
+
+.news-button{
+    width: 497px;
+    height: 62px;
+    background-color:#4E47FF;
+    color:#FFFFFF;
+    border-radius: 10px;
 }
